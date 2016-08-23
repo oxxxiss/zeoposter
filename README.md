@@ -6,13 +6,13 @@
 2. WM: R246895222292 , Z869848337718
 
 #УСТАНОВКА 
- #ШАГ 1
- /engine/inc/editnews.php
+> #ШАГ 1
+ `/engine/inc/editnews.php`
 найти 
-	if( $row['comm_num'] > 0 ) {
+	`if( $row['comm_num'] > 0 ) {`
 вставить перед
-	include(ENGINE_DIR . "/inc/poster.php");
- #ШАГ 2 
+	`include(ENGINE_DIR . "/inc/poster.php");`
+> #ШАГ 2 
 <b>ЕСЛИ У ВАС НЕ УСТАНОВЛЕН МОДУЛЬ ZeoParser, ЭТО ШАГ НЕ ДЕЛАЙТЕ !</b> 
 найти 
  p.short_story,
