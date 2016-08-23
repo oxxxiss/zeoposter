@@ -1,4 +1,6 @@
 #ОПИСАНИЕ
+![version](https://img.shields.io/badge/version-1.0.1-red.svg?style=flat-square "Version")
+![DLE](https://img.shields.io/badge/DLE-10.x-green.svg?style=flat-square "DLE Version")
 Модуль очень простенький. Выводить постер при редактировнии. Может выводить {image-1} или с доп поли или с поля модуля ZeoParser. Не требует много правок. Просто надо подключить модуль. Что делает его очень гибким. 
 
 # НА ЧИПСЫ
