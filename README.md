@@ -7,14 +7,25 @@
 
 #УСТАНОВКА 
 > #ШАГ 1
- `/engine/inc/editnews.php`
+
+	 /engine/inc/editnews.php
+
 найти 
-	`if( $row['comm_num'] > 0 ) {`
+
+	if( $row['comm_num'] > 0 ) {
+
 вставить перед
-	`include(ENGINE_DIR . "/inc/poster.php");`
+
+	include(ENGINE_DIR . "/inc/poster.php");
+	
 > #ШАГ 2 
+
 <b>ЕСЛИ У ВАС НЕ УСТАНОВЛЕН МОДУЛЬ ZeoParser, ЭТО ШАГ НЕ ДЕЛАЙТЕ !</b> 
+
 найти 
- p.short_story,
+
+	 p.short_story,
+	 
 дальше вставить
- p.poster,
+
+	 p.poster,
